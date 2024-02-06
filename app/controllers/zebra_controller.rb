@@ -52,8 +52,6 @@ class ZebraController < ApplicationController
   end
 
   def rules
-
+    render({ :template => "game_templates/learn_rules" })
   end
-
-
 end
